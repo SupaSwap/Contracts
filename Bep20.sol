@@ -639,6 +639,6 @@ pragma solidity ^0.7.0;
 contract Toad is ERC20 {
 
     constructor () ERC20("SupaSwap", "SUPA") {
-        _mint(msg.sender, 200000 * (10 ** uint256(decimals())));
+        _mint(msg.sender, 1000000 * (10 ** uint256(decimals())));
     }
 }
